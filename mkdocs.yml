@@ -1,0 +1,133 @@
+site_name: Arkeo All-in-One Manual
+
+theme:
+  name: material
+  icon:
+    annotation: material/arrow-right-circle 
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    #- navigation.tabs
+    - search.highlight
+    - search.suggest
+    - content.footnote.tooltips
+    - content.code.annotate
+    - content.code.copy
+    - content.image.zoom
+    - content.action.copy
+    - content.icons
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: teal
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+    
+markdown_extensions:
+  - toc:
+      permalink: true
+      # toc_depth: 1
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: false
+      linenums: false
+      guess_lang: false
+      use_pygments: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets:
+      base_path: docs
+
+nav:
+  - Home: index.md
+
+  # - Getting Started:
+  #     - Introduction: getting-started/introduction.md
+  #     - System Architecture: getting-started/system-architecture.md
+  #     - Installation: getting-started/installation.md
+  #     - Safety Information: getting-started/safety.md
+
+  - Hardware:
+      - Overview: hardware/overview.md
+      # - Main Unit: hardware/main-unit.md
+      - Probes: hardware/probes.md
+      - Accessories: hardware/accessories.md
+
+  # - Software:
+  #     - Overview: software/overview.md
+  #     - Data Management: software/data-management.md
+  #     - API: software/api.md
+
+  - Measurement Routines:
+      - Overview: routines/index.md
+      - JV:
+          - Scientific Background: routines/jv/scientific.md
+          - Software Manual: routines/jv/software.md
+      - IPCE:
+          - Scientific Background: routines/ipce/scientific.md
+          - Software Manual: routines/ipce/software.md
+      - Resistivity:
+          - Scientific Background: routines/resistivity/scientific.md
+          - Software Manual: routines/resistivity/software.md
+      - Photoluminescence:
+          - Scientific Background: routines/luminescence/scientific.md
+          - Software Manual: routines/luminescence/software.md
+
+  # - Maintenance:
+  #     - Calibration: maintenance/calibration.md
+  #     - Troubleshooting: maintenance/troubleshooting.md
+  #     - Firmware Updates: maintenance/firmware.md
+
+  # - Appendix:
+  #     - Technical Specifications: appendix/specifications.md
+  #     - Compliance & Certifications: appendix/compliance.md
+  #     - Glossary: appendix/glossary.md
+
+plugins:
+  - search
+  - macros
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  - js/katex-init.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+  - assets/css/compact-lists.css
+  - assets/css/compact-tables.css
+  - assets/css/extra.css
