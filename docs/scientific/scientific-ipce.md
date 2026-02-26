@@ -34,7 +34,7 @@ $$
 ---
 
 <figure markdown="span">
-  ![Typical IPCE curve](img/QEE.png){ width="70%" }
+  ![Typical IPCE curve](img/ipce/QEE.png){ width="70%" }
   <figcaption>Typical IPCE curve of a solar cell. Deviations from ideal behaviour are caused by reflection and recombination losses.</figcaption>
 </figure>
 
@@ -120,7 +120,7 @@ To isolate subcells:
 ## IQE estimation using transfer matrix modelling
 
 <figure markdown="span">
-  ![Transfer Matrix Example](img/TransferMatrix.png){ width="85%" }
+  ![Transfer Matrix Example](img/ipce/TransferMatrix.png){ width="85%" }
   <figcaption>Example of a transfer matrix calculation showing the reflectance, transmittance and parasitic absorbtion.</figcaption>
 </figure>
 

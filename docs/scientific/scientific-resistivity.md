@@ -1,9 +1,10 @@
 # 4-point resistivity
+
 Take note that only the ratio of the rectangle $a/b$ and the ratio of the short edge with the probe distance $b/s$ influence the correction factor. $L$ is shortest distance from the probes to both edges.
 ## Scientific Introduction
 
 <figure markdown="span">
-  ![4-point schematic](img/4point_schematic.png){ width="60%" }
+  ![4-point schematic](img/resistivity/4point_schematic.png){ width="60%" }
   <figcaption>Schematic of resistivity measurement on a rectangular device.</figcaption>
 </figure>
 
@@ -36,7 +37,7 @@ F_1=\frac{\ln(2)}{\ln\left[\sinh(t/s)/\sinh(t/2s)\right]}
 $$
 
 <figure markdown="span">
-  ![Thickness correction factor](img/TCF.png){ width="70%" }
+  ![Thickness correction factor](img/resistivity/TCF.png){ width="70%" }
   <figcaption>Plot of the correction factor $F_1$ that accounts for thickness effects. Plotted on double-logarithmic axes as a function of $t/s$.</figcaption>
 </figure>
 

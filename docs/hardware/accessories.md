@@ -7,16 +7,16 @@ The following accessories are available:
     <div class="accessory-layout" markdown>
     <div class="accessory-text" markdown>
 
-    ### Description
+    **Description**
 
     This LED can be used to excite device at high-speed. Its response is in the ns regime and is ideal for fast transient tests like Transient Photovoltage and Photo-CELIV.
 
-    ### Performance
+    **Performance**
 
     - 1MHz+ pulse modulation
     - 0.001- 2 SUN output power
 
-    ### Compatible Routines
+    **Compatible Routines**
 
     - JV
     - MPPT
@@ -35,15 +35,15 @@ The following accessories are available:
     <div class="accessory-layout" markdown>
     <div class="accessory-text" markdown>
 
-    ### Description
+    **Description**
 
     The spectrometer module contains a lens attached to a fibre to carry the signal to system-integrated spectrometer.
 
-    ### Performance
+    **Performance**
 
     The performance depends on the specific spectrometer used
 
-    ### Compatible Routines
+    **Compatible Routines**
 
     - Dark JV
     - Photoluminescence
@@ -63,15 +63,15 @@ The following accessories are available:
     <div class="accessory-layout" markdown>
     <div class="accessory-text" markdown>
 
-    ### Description
+    **Description**
 
     The photodiode can be used as a photodetector to capture electroluminescence signals as a cheaper alternative to a full spectrometer
 
-    ### Performance
+    **Performance**
 
     - 300-1100 nm responsivity
 
-    ### Compatible Routines
+    **Compatible Routines**
 
     - Dark JV
 
@@ -88,14 +88,14 @@ The following accessories are available:
     <div class="accessory-layout" markdown>
     <div class="accessory-text" markdown>
 
-    ### Description
+    **Description**
 
     The monochromatic line module can be used to carry the monochromatic light from a monochromator to the stage. This allows for more flexibility in the installation of the setup as the monochromator line if often very large.
 
-    ### Performance
+    **Performance**
 
     
-    ### Compatible Routines
+    **Compatible Routines**
 
     - IPCE
 

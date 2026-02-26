@@ -15,7 +15,7 @@ theme:
     - content.footnote.tooltips
     - content.code.annotate
     - content.code.copy
-    - content.image.zoom
+    - content.image
     - content.action.copy
     - content.icons
   palette:
@@ -84,28 +84,36 @@ nav:
   - Hardware:
       - Overview: hardware/overview.md
       # - Main Unit: hardware/main-unit.md
+      - Measurement Stage: hardware/measurement_stage.md
       - Probes: hardware/probes.md
       - Accessories: hardware/accessories.md
 
-  # - Software:
-  #     - Overview: software/overview.md
-  #     - Data Management: software/data-management.md
-  #     - API: software/api.md
+  - Software:
+      - Overview: software/overview.md
+      - Data Management: software/data-management.md
+      - Routines:
+        - Steady State:
+            - Sun JV: software/routines/jv.md
+            - Dark JV: software/routines/dark-jv.md
+            - MPPT: software/routines/mppt.md
+            - IPCE: software/routines/ipce.md
+            - Resistivity: software/routines/resistivity.md
+            - Photoluminescence: software/routines/luminescence.md
+        - Transient:
+            - Impedance: software/routines/impedance.md
+      - Parameter Sweep: software/parameter-sweep.md
 
-  - Measurement Routines:
+  - Scientific Theory:
       - Overview: routines/index.md
-      - JV:
-          - Scientific Background: routines/jv/scientific.md
-          - Software Manual: routines/jv/software.md
-      - IPCE:
-          - Scientific Background: routines/ipce/scientific.md
-          - Software Manual: routines/ipce/software.md
-      - Resistivity:
-          - Scientific Background: routines/resistivity/scientific.md
-          - Software Manual: routines/resistivity/software.md
-      - Photoluminescence:
-          - Scientific Background: routines/luminescence/scientific.md
-          - Software Manual: routines/luminescence/software.md
+      - Steady State Tests:
+          - Sun JV: scientific/scientific-jv.md
+          - Dark JV: scientific/scientific-darkjv.md
+          - MPPT: scientific/scientific-mppt.md
+          - IPCE: scientific/scientific-ipce.md
+          - Resistivity: scientific/scientific-resistivity.md
+          - Photoluminescence: scientific/scientific-luminescence.md
+      - Transient Tests:
+          - Impedance: scientific/scientific-impedance.md
 
   # - Maintenance:
   #     - Calibration: maintenance/calibration.md
@@ -119,15 +127,17 @@ nav:
 
 plugins:
   - search
+  - glightbox:
+      manual: true
   - macros
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
-  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - js/katex-init.js
 
 extra_css:
-  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
   - assets/css/compact-lists.css
   - assets/css/compact-tables.css
   - assets/css/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css

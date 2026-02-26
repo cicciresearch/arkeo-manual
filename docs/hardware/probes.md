@@ -1,5 +1,10 @@
 The Arkeo probes are used to connect your device to the measuring unit. Each probe contains 1 or 2 spring contacts to place on the device's contact pads. Each probe then carries the force (current) and sense (voltage) signal through seperate shielded wires to the measuring system. They connect through BNC connectors.
 
+<figure markdown="span">
+  ![dark-jv-regimes](../assets/img/system/fixture/probe.jpg){ width="80%" }
+  <figcaption>An Arkeo eletrical probe placed on the measurement stage.</figcaption>
+</figure>
+
 Three types of probes are available for the Arkeo system:
 
 ## Slow probes

@@ -14,7 +14,7 @@ Extracting the generated charges by applying a potential results in a current. I
 
 ---
 
-![Typical JV curve](img/jv-parameters.png){ width="70%" }
+![Typical JV curve](img/jv/jv-parameters.png){ width="70%" }
 
 *Typical JV curve of a solar cell shown in red. The corresponding power curve is shown in blue.*
 
@@ -59,7 +59,7 @@ Shunt resistance represents leakage pathways in the device. It can be estimated 
 
 ---
 
-![One diode model](img/one-diode-model.png){ width="60%" }
+![One diode model](img/jv/one-diode-model.png){ width="60%" }
 
 *One diode circuit model for solar cells.*
 

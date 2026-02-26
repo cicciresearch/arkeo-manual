@@ -1,4 +1,4 @@
-# ARKEO Technical Manual
+# ARKEO Manual
 
 <div align="center">
   <img src="assets/img/system/Arkeo_Platform_trans.png" alt="ARKEO System" width="400">
