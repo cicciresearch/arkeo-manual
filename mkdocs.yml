@@ -101,10 +101,12 @@ nav:
             - Photoluminescence: software/routines/luminescence.md
         - Transient:
             - Impedance: software/routines/impedance.md
+            - Transient Photo Response: software/routines/tpr.md
+            - Photo-CELIV: software/routines/celiv.md
       - Parameter Sweep: software/parameter-sweep.md
 
   - Scientific Theory:
-      - Overview: routines/index.md
+      - Overview: scientific/index.md
       - Steady State Tests:
           - Sun JV: scientific/scientific-jv.md
           - Dark JV: scientific/scientific-darkjv.md
@@ -114,6 +116,8 @@ nav:
           - Photoluminescence: scientific/scientific-luminescence.md
       - Transient Tests:
           - Impedance: scientific/scientific-impedance.md
+          - Photo-CELIV: scientific/scientific-celiv.md
+
 
   # - Maintenance:
   #     - Calibration: maintenance/calibration.md

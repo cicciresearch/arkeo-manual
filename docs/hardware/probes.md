@@ -71,4 +71,4 @@ Up to 200 MS/s output rate --> up to 24 Vpk-pk
 
 This probe has a special configuration of the 4 spring contacts to measure sheet resistance of thin films. It connects to the same source meter unit of the [slow probes](#slow-probes) and therefore has the same performance.
 
-See the [Resistivity routine](../routines/resistivity/scientific.md) for more details
+See the [Resistivity routine](../scientific/scientific-resistivity.md) for more details

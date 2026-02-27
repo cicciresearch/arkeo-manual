@@ -20,7 +20,7 @@ Here, temperature ramps can also be programmed in two modes:
 
 ### Stand-alone ramp
 
-The stand-alone ramp temperature ramp runs in the background independent of the routines. In this way, the temperature can be cycled at different levels. A stability routine (like the [connection test](../routines/connection/software.md) or [MPPT](../routines/mppt/software.md)) can be run in the background to monitor the device performance.
+The stand-alone ramp temperature ramp runs in the background independent of the routines. In this way, the temperature can be cycled at different levels. A stability routine (like the [connection test](routines/connection.md)) or [MPPT](routines/mppt.md) can be run in the background to monitor the device performance.
 
 ### Routine ramp
 

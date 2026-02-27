@@ -28,6 +28,9 @@ The following settings are available for the JV routine
 | Auto Voc   | Stop the scan at Voc              | true                                                                         |      |
 | Exceed Voc | Overshoot the Voc detection       | 10                                                                           | %    |
 
+???+ info "Auto Voc"
+    When Auto Voc is enabled, the scan automatically stops once the current crosses zero. The Exceed Voc parameter defines the percentage overshoot applied beyond the detected Voc before stopping.
+
 **Precondition**
 
 | Parameter      | Description                                   | Value                                      | Unit |
@@ -43,7 +46,7 @@ The following settings are available for the JV routine
 | ---------- | --------------------------------- | -------------------------------------------------- | ------ |
 | Source     | Light source                      | None<br>External<br>12 LED<br>Fast LED<br>LED Ring |        |
 | Irradiance | Total irradiance at 100%          | 100                                                | mW/cm² |
-| Level      | Output Level of the light         | 100                                                | %V%    |
+| Level      | Output Level of the light         | 100                                                | %    |
 
 ### Parameter Sweep
 
