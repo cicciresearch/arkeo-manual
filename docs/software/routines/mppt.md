@@ -1,0 +1,1 @@
+![MPPT Interface](img/mppt.png)

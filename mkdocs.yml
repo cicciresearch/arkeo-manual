@@ -100,7 +100,10 @@ nav:
             - Resistivity: software/routines/resistivity.md
             - Photoluminescence: software/routines/luminescence.md
         - Transient:
-            - Impedance: software/routines/impedance.md
+            - Impedance:
+                - EIS: software/routines/impedance.md
+                # - Fitting: software/routines/impedance-fitting.md
+                # - IMVS/IMPS: software/routines/imvs-ps.md
             - Transient Photo Response: software/routines/tpr.md
             - Photo-CELIV: software/routines/celiv.md
       - Parameter Sweep: software/parameter-sweep.md
@@ -110,12 +113,12 @@ nav:
       - Steady State Tests:
           - Sun JV: scientific/scientific-jv.md
           - Dark JV: scientific/scientific-darkjv.md
-          - MPPT: scientific/scientific-mppt.md
+          # - MPPT: scientific/scientific-mppt.md
           - IPCE: scientific/scientific-ipce.md
           - Resistivity: scientific/scientific-resistivity.md
           - Photoluminescence: scientific/scientific-luminescence.md
       - Transient Tests:
-          - Impedance: scientific/scientific-impedance.md
+          # - Impedance: scientific/scientific-impedance.md
           - Photo-CELIV: scientific/scientific-celiv.md
 
 

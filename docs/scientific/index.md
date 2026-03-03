@@ -37,6 +37,7 @@ The routines are grouped by measurement philosophy and device type.
 
 ---
 
+<!-- 
 ## Transient Measurements
 
 <div class="grid cards" markdown>
@@ -97,4 +98,5 @@ The routines are grouped by measurement philosophy and device type.
   Thermoelectric voltage generation and material performance.  
   [Open →](scientific-seebeck.md)
 
-</div>
+</div> 
+-->

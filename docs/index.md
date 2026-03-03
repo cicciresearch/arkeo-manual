@@ -21,9 +21,9 @@ This manual provides a complete overview of:
 
 <div class="grid cards" markdown>
 
-- :material-rocket-launch: **Getting Started**  
+<!-- - :material-rocket-launch: **Getting Started**  
   Installation, system architecture, and safety information.  
-  [Open Section →](getting-started/introduction.md)
+  [Open Section →](getting-started/introduction.md) -->
 
 - :material-chip: **Hardware**  
   Main unit, accessories, and system configuration.  
@@ -37,12 +37,12 @@ This manual provides a complete overview of:
   JV, MPPT, Impedance, Resistivity and more.  
   [Open Section →](routines/index.md)
 
-- :material-wrench: **Maintenance**  
+<!-- - :material-wrench: **Maintenance**  
   Calibration, troubleshooting, and firmware updates.  
   [Open Section →](maintenance/calibration.md)
 
 - :material-book-open-page-variant: **Appendix**  
   Technical specifications, compliance, and glossary.  
-  [Open Section →](appendix/specifications.md)
+  [Open Section →](appendix/specifications.md) -->
 
 </div>

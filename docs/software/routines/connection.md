@@ -1,0 +1,1 @@
+![Connection Test Interface](img/connection.png)
