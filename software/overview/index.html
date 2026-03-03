@@ -826,7 +826,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../routines/mppt.md" class="md-nav__link">
+      <a href="../routines/mppt/" class="md-nav__link">
         
   
   
@@ -910,7 +910,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../routines/luminescence.md" class="md-nav__link">
+      <a href="../routines/luminescence/" class="md-nav__link">
         
   
   
@@ -996,9 +996,24 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../routines/impedance.md" class="md-nav__link">
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3_2_1">
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2_1" id="__nav_3_3_2_1_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -1012,7 +1027,51 @@
   
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Impedance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../routines/impedance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EIS
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1321,34 +1380,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../scientific/scientific-mppt.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    MPPT
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../scientific/scientific-ipce/" class="md-nav__link">
         
   
@@ -1484,34 +1515,6 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../scientific/scientific-impedance.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Impedance
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
             
               
                 
@@ -1660,7 +1663,7 @@
 <p>The temperature control system operates independently from the selected routine, allowing stabilization before measurement and continuous regulation during experiments. This integration ensures consistent thermal conditions across all characterization techniques.</p>
 <p>Here, temperature ramps can also be programmed in two modes:</p>
 <h3 id="stand-alone-ramp">Stand-alone ramp<a class="headerlink" href="#stand-alone-ramp" title="Permanent link">¶</a></h3>
-<p>The stand-alone ramp temperature ramp runs in the background independent of the routines. In this way, the temperature can be cycled at different levels. A stability routine (like the <a href="routines/connection.md">connection test</a>) or <a href="routines/mppt.md">MPPT</a> can be run in the background to monitor the device performance.</p>
+<p>The stand-alone ramp temperature ramp runs in the background independent of the routines. In this way, the temperature can be cycled at different levels. A stability routine (like the <a href="../routines/connection/">connection test</a>) or <a href="../routines/mppt/">MPPT</a> can be run in the background to monitor the device performance.</p>
 <h3 id="routine-ramp">Routine ramp<a class="headerlink" href="#routine-ramp" title="Permanent link">¶</a></h3>
 <p>In the routine ramp mode, automatic sequences of routines can be performed at different temperatures. For example, the software can set a temperature, perform one or more routines, set the next temperature and cycle as long as required.</p>
 
