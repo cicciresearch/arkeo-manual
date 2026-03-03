@@ -98,7 +98,10 @@ nav:
             - MPPT: software/routines/mppt.md
             - IPCE: software/routines/ipce.md
             - Resistivity: software/routines/resistivity.md
-            - Photoluminescence: software/routines/luminescence.md
+            - Luminescence:
+                - Photoluminescence: software/routines/luminescence.md
+                - Pulsed EL: software/routines/pulsed-el.md
+                - PLQY: software/routines/plqy.md
         - Transient:
             - Impedance:
                 - EIS: software/routines/impedance.md
