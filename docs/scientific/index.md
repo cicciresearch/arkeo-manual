@@ -15,23 +15,23 @@ The routines are grouped by measurement philosophy and device type.
 
 - :material-chart-line: **JV**  
   Current–voltage characterization under illumination.  
-  [Open →](scientific-jv.md)
+  [Theory →](scientific-jv.md)
 
 - :material-flash: **MPPT**  
   Maximum Power Point Tracking and stability analysis.  
-  [Open →](scientific-mppt.md)
+  [Theory →](scientific-mppt.md)
 
 - :material-sine-wave: **IPCE**  
   Spectral external quantum efficiency measurement.  
-  [Open →](scientific-ipce.md)
+  [Theory →](scientific-ipce.md)
 
 - :material-moon-waning-crescent: **Dark JV**  
   Injection, SCLC and trap analysis in dark conditions.  
-  [Open →](scientific-darkjv.md)
+  [Theory →](scientific-darkjv.md)
 
 - :material-lightbulb-on: **Photoluminescence**  
   Radiative recombination and QFLS characterization.  
-  [Open →](scientific-luminescence.md)
+  [Theory →](scientific-luminescence.md)
 
 </div>
 
@@ -44,15 +44,15 @@ The routines are grouped by measurement philosophy and device type.
 
 - :material-waveform: **Impedance (EIS)**  
   Frequency-domain analysis of charge transport and recombination.  
-  [Open →](scientific-impedance.md)
+  [Theory →](scientific-impedance.md)
 
 - :material-timer-sand: **CELIV**  
   Charge extraction by linearly increasing voltage.  
-  [Open →](scientific-celiv.md)
+  [Theory →](scientific-celiv.md)
 
 - :material-timer-outline: **TPV / TPC**  
   Transient photovoltage and photocurrent decay analysis.  
-  [Open →](scientific-tpr.md)
+  [Theory →](scientific-tpr.md)
 
 </div>
 
@@ -64,11 +64,11 @@ The routines are grouped by measurement philosophy and device type.
 
 - :material-chart-bell-curve: **Transistor Sweep**  
   Transfer and output characteristics of FET devices.  
-  [Open →](scientific-transistor-sweep.md)
+  [Theory →](scientific-transistor-sweep.md)
 
 - :material-pulse: **Transistor Pulsing**  
   Dynamic transistor operation and hysteresis analysis.  
-  [Open →](scientific-transistor-pulsing.md)
+  [Theory →](scientific-transistor-pulsing.md)
 
 </div>
 
@@ -80,11 +80,11 @@ The routines are grouped by measurement philosophy and device type.
 
 - :material-sync: **Cyclic Voltammetry**  
   Electrochemical redox characterization.  
-  [Open →](scientific-cyclic-voltammetry.md)
+  [Theory →](scientific-cyclic-voltammetry.md)
 
 - :material-battery-charging: **Charge–Discharge**  
   Capacity, stability, and cycling analysis.  
-  [Open →](scientific-charge-discharge.md)
+  [Theory →](scientific-charge-discharge.md)
 
 </div>
 
@@ -96,7 +96,7 @@ The routines are grouped by measurement philosophy and device type.
 
 - :material-thermometer: **Seebeck Coefficient**  
   Thermoelectric voltage generation and material performance.  
-  [Open →](scientific-seebeck.md)
+  [Theory →](scientific-seebeck.md)
 
 </div> 
 -->

@@ -9,7 +9,8 @@ theme:
     - navigation.sections
     - navigation.instant
     - navigation.top
-    #- navigation.tabs
+    - navigation.tabs
+    - navigation.path
     - search.highlight
     - search.suggest
     - content.footnote.tooltips
@@ -110,7 +111,8 @@ nav:
             - Transient Photo Response: software/routines/tpr.md
             - Photo-CELIV: software/routines/celiv.md
       - Parameter Sweep: software/parameter-sweep.md
-
+  - Tools:
+      - EQE Analysis: tools/eqe-analysis/eqe-analysis.md
   - Scientific Theory:
       - Overview: scientific/index.md
       - Steady State Tests:
@@ -145,6 +147,8 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - js/katex-init.js
+  - https://cdn.plot.ly/plotly-2.30.0.min.js
+  - tools/eqe-analysis/eqe_tool.js
 
 extra_css:
   - assets/css/compact-lists.css
