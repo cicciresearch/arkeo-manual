@@ -95,7 +95,7 @@ nav:
       - Routines:
         - Steady State:
             - Sun JV: software/routines/jv.md
-            - Dark JV: software/routines/dark-jv.md
+            - Dark JV: software/routines/darkj-jv/dark-jv.md
             - MPPT: software/routines/mppt.md
             - IPCE: software/routines/ipce.md
             - Resistivity: software/routines/resistivity.md

@@ -19,6 +19,20 @@ The IPCE routine follows the following order of operations:
 
 ---
 
+## Chopper
+To improve the signal-to-noise ratio, a chopper can be introduced between the light source and the device. As the frequency of the chopped light is known, the noise can be filtered out by just considering the signal at this known frequency. In practice, a Fourier Transform is applied to extract this amplitude. This procedure is especially powerful when the input light intensity is very low (for example in the UV in case of a Xenon arc light) or when the signal from the device is very low (for example, when the wavelength exceeds the bandgap).
+
+### Chopped light considerations
+Although using chopped light can improve the signal-to-noise ratio, it comes with some limtations that have to be considered.
+
+*Acquisition Time*
+To properly calculate the Fourier Transform, it is recommended to provide at least 10 periods. The acquisition time at each wavelength must be selected according to the set frequency
+
+*Device Response*
+Some devices, especially DSSCs, have very slow transient responses. Sometimes in the order of seconds. If the frequency of the chopped light is faster than the transient response of the device, the current isn't allowed to saturate and the EQE can be underestimated. 
+
+---
+
 ## Settings
 
 The following settings are available for the IPCE routine

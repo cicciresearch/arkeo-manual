@@ -20,20 +20,17 @@ In addition to the raw data files, a PDF file is generated for every measurement
 
 To make data processing easier, all files have the same general structure, independent of the measurement type. Each file starts with a header section, indicated by the `## Header ##` tag, containing all measurement settings. Settings are further subdivided in categories by labels in square brackets. Every file contains the `[General info]` category containing basic information (see [Example File](#example-file)). Other categories depend on the performed routine.
 
-!!! note
-	As the software evolves, settings may be added, modified or deleted. When this happens ensure that any post-processing script can handle this.
-
 Some routines may include a `## Parameter ##` section. For example, the JV routine has this section to include the JV parameters.  
 **Note**: If a routine doesn't require any parameters to be saved, this section is omitted.
 
 The `## Data ##` tag indicates where the actual measurement result begins. Data is always stored in a tab-delimited 2D array of values, always containing a row with column headers describing each data column. This format ensures compatibility with common data processing tools such as MATLAB, Python, Origin, and spreadsheet software.
 
+!!! warning "Post-processing"
+	As the software evolves, settings may be added, modified or deleted. When this happens ensure that any post-processing script can handle this. e.g. do no remove a fixed number of lines to read the data, but dynamically search for the `## Data ##` tag.
+	
 ---
 
-By enforcing a consistent file architecture across all routines, the
-ARKEO system enables streamlined automated analysis, robust data
-archiving, and straightforward integration into external data processing
-pipelines.
+By enforcing a consistent file architecture across all routines, the ARKEO system enables streamlined automated analysis, robust data archiving, and straightforward integration into external data processing pipelines.
 
 ---
 
