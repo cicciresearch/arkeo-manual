@@ -62,6 +62,11 @@ Control the monochromator with these controls independent of the measurement. Th
 ## Lamp Calibration
 Every time the lamp is turned on, and after each 2 hours, it is recommended to calibrate the lamp power. To calibrate the lamp, check the "Calibrate" checkbox and start the measurement as normal. You are then asked to provide the photodiode calibration file. A default file is selected automatically. 
 
+The system will then sweep through the selected wavelengths and record the current from the photodiode. The lamp power is then calculated as 
+$$
+P_{lamp}(W/cm²) = I_{ph}(A/cm²) / \text{responsivity} (A/W)
+$$
+After the calibration, the result is saved to a file at `C:\Arkeo\calibration\IPCE Lamp Power.txt`. A copy is also created `C:\Arkeo\calibration\IPCE Calibration History`. All measurements use the latest calibration file to calculated the EQE.
 
 ## Data Display
 
