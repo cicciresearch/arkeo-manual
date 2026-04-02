@@ -110,6 +110,8 @@ nav:
                 # - IMVS/IMPS: software/routines/imvs-ps.md
             - Transient Photo Response: software/routines/tpr.md
             - Photo-CELIV: software/routines/celiv.md
+      - Accessories:
+          - Air Unit: software/accessories/air-unit.md
       - Parameter Sweep: software/parameter-sweep.md
   - Tools:
       - EQE Analysis: tools/eqe-analysis/eqe-analysis.md

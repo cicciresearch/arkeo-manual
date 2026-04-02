@@ -72,6 +72,16 @@ q \int_{\lambda_{min}}^{\lambda_{max}}
 $$
 In practice, $J_{sc}$ from EQE and from JV scans may differ due to light-intensity dependence or nonlinear photo-current behaviour.
 
+### Spectral deviation
+
+If a perfect spectral match is not possible, the **Spectral Deviation (SD)** is calculated as:
+$$
+SD = \frac
+{\int EQE(\lambda) \cdot \lambda \cdot E_{SIM}(\lambda) d\lambda}
+{\int EQE(\lambda) \cdot \lambda \cdot E_{REF}(\lambda) d\lambda}
+$$
+
+
 ---
 
 ### Bias light and lock-in detection
@@ -89,19 +99,6 @@ The Arkeo system mitigates this by:
 - Extracting the periodic monochromatic signal from steady bias current
 
 For slow devices (e.g. DSSCs), chopping frequency must exceed current settling time.
-
-## Spectral deviation
-
-If a perfect spectral match is not possible, the **Spectral Deviation (SD)** is calculated as:
-
-$$
-SD =
-\frac{
-\int EQE(\lambda)\lambda E_{SIM}(\lambda) d\lambda
-}{
-\int EQE(\lambda)\lambda E_{REF}(\lambda) d\lambda
-}
-$$
 
 ---
 
