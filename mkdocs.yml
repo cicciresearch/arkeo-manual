@@ -59,6 +59,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - footnotes
+  - abbr
+  - pymdownx.snippets
   - pymdownx.inlinehilite
   - pymdownx.tabbed:
       alternate_style: true
@@ -125,7 +127,8 @@ nav:
           - Resistivity: scientific/scientific-resistivity.md
           - Photoluminescence: scientific/scientific-luminescence.md
       - Transient Tests:
-          # - Impedance: scientific/scientific-impedance.md
+          - Transient Photo Response: scientific/scientific-tpr.md
+          - Impedance: scientific/scientific-eis.md
           - Photo-CELIV: scientific/scientific-celiv.md
 
 
