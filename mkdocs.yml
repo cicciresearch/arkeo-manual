@@ -87,8 +87,10 @@ nav:
   - Hardware:
       - Overview: hardware/overview.md
       # - Main Unit: hardware/main-unit.md
-      - Measurement Stage: hardware/measurement_stage.md
+      - Measurement Stage: hardware/measurement-stage.md
       - Probes: hardware/probes.md
+      - Temperature Stage: hardware/temperature-controller.md
+      - LED Controller: hardware/led-controller.md
       - Accessories: hardware/accessories.md
 
   - Software:
