@@ -2,6 +2,8 @@ site_name: Arkeo All-in-One Manual
 
 theme:
   name: material
+  logo: assets/img/logo.png
+  favicon: assets/img/logo.png
   icon:
     annotation: material/arrow-right-circle 
   features:
@@ -89,9 +91,9 @@ nav:
       # - Main Unit: hardware/main-unit.md
       - Measurement Stage: hardware/measurement-stage.md
       - Probes: hardware/probes.md
-      - Temperature Stage: hardware/temperature-controller.md
       - LED Controller: hardware/led-controller.md
       - Accessories: hardware/accessories.md
+      - Third-Party Integration: hardware/third-party.md
 
   - Software:
       - Overview: software/overview.md
@@ -114,6 +116,7 @@ nav:
                 # - IMVS/IMPS: software/routines/imvs-ps.md
             - Transient Photo Response: software/routines/tpr.md
             - Photo-CELIV: software/routines/celiv.md
+            - TrPL: software/routines/trpl.md
       - Accessories:
           - Air Unit: software/accessories/air-unit.md
       - Parameter Sweep: software/parameter-sweep.md
@@ -149,6 +152,9 @@ plugins:
   - glightbox:
       manual: true
   - macros
+
+extra:
+  homepage: https://docs.cicciresearch.it/
 
 extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js

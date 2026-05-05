@@ -87,6 +87,11 @@ The Bode representation plots $|Z|(f)$ and $\phi(f)$. which makes the frequency 
 
 A central part of EIS analysis is fitting the experimental spectrum to an equivalent electrical circuit.
 
+<figure markdown="span">
+  ![eis-graph](img/eis/equivalent-circuit.png)
+</figure>
+
+
 For photovoltaic devices, the most frequently used model is the **Randles-type equivalent circuit**:
 $$
 Z(\omega)=R_s+\frac{R_{ct}}{1+j\omega R_{ct}C}

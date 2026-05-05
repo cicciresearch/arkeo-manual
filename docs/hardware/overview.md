@@ -1,36 +1,47 @@
 # System Overview
+_A modular platform for advanced opto-electronic characterization_
 
-<div align="center">
-  <img src="../assets/img/system/Arkeo_Platform_trans.png" alt="ARKEO System" width="400">
-</div>
+<figure markdown="span">
+  <img src="../../assets/img/system/Arkeo_Platform_trans.png" alt="ARKEO System" width="400">
+</figure>
 
-The Arkeo system consists of 2 parts, the main acquisition unit and the measurement stage. They connect to each other through various cables, from shielded BNCs for device signals to standard DB15 like cables for the various accessories.
+---
+
+The ARKEO platform is built as a modular measurement system, combining a high-performance acquisition unit with a flexible measurement stage. Together, these elements provide a customizable environment for advanced opto-electronic characterization.
+
+Both subsystems are tightly integrated through dedicated connections, ranging from shielded BNC cables for sensitive signals to robust multi-pin interfaces for accessory control, ensuring reliable and low-noise operation.
 
 ## Acquisition Unit
 
-The acquisition unit contains all the hardware to acquire the device signals, as well as the hardware to control any connected accessories. This hardware is designed around the eurocard standard format, where boards are slotted into rails mounted in 19" (sub)racks. Each card then slots directly into the rack-wide backplane, allowing any cards to connected directly to the system like a plug&play board. 
+The acquisition unit forms the core of the ARKEO system, handling signal acquisition, instrument control, and system synchronization. It is built around the Eurocard standard, where individual hardware modules are inserted into rails within 19" rack enclosures. Each module connects directly to a shared backplane, enabling plug-and-play style integration of system components.
 
-The image above shows an example of a fully equipped Arkeo system with 2 racks. The bottom rack is present on all systems and contains a standard Windows PC, giving users a familiar system to work with. 
+This architecture allows ARKEO to function as a scalable hardware platform, where instrumentation can be added, removed, or reconfigured depending on the experimental needs.
 
-The top rack contains (from left to right):
+The configuration shown above represents a fully equipped system with two racks:
 
+* The lower rack is included in all systems and houses a standard Windows PC, providing a familiar and fully compatible software environment.
+* The upper rack hosts the measurement and control modules, for example:
 1. [Temperature controller](temperature-controller.md)
 2. [Light controller](led-controller.md)
 3. Function Generator and Oscilloscope ([Fast Probes](probes.md#fast-probes))
 4. High-precision Source Meter Unit ([Slow Probes](probes.md#slow-probes))
 
 !!!info "Upgradability"
-    Although many slots are empty, the size of the system allows for easy reconfiguration and future upgrades. For example, additional temperature and light controllers can easily be installed, without the need for an on-site visit from a technician.
+  The modular design leaves available space for expansion, allowing new capabilities to be added at any time. Additional controllers, measurement boards, or custom modules can be installed without requiring system redesign or on-site intervention.
 
 ## Measurement Stage
 
-The measurement stage is where the users work and place their samples. Two probes allow for precise device contacting and can optionally be configured in 4-pin or 2-pin connection. In both cases, 4 shielded BNC cables (2 force and 2 sense) carry the device signal to the Acquisition Unit. The stage feature an aperature below which several components can be placed. Examples include:
+The measurement stage is the interaction point between the user and the device under test, designed for precision, flexibility, and reproducibility.
 
-* Monochromator light for EQE analysis
-* Spectrometer for EL and PL analysis
+Samples are contacted using two high-precision probes, which can be configured for both 2-wire and 4-wire (Kelvin) measurements. Signal integrity is preserved through shielded BNC connections (force and sense lines) linking the stage to the acquisition unit.
+
+At the center of the stage, an optical aperture allows seamless integration of additional instrumentation below the sample plane. This enables advanced measurement configurations such as:
+
+* Monochromatic light for EQE analysis
+* Spectrometers for electroluminescence (EL) and photoluminescence (PL) analysis
 * Fast LED for transient analysis
 * ... and more
 
-Device are placed on a peltier controlled heat stage. This allows for automatic temperature dependent analysis. The system can programmatically set the temperature of the stage and run a sequence of measurements at each temperature, giving even more insight in the works of the device.
+The sample is mounted on a Peltier-controlled stage, enabling precise temperature regulation. ARKEO can automatically control the temperature and execute measurement sequences across defined temperature ranges, giving even more insight in the workings of the device.
 
 For more details, see [Measurement Stage](measurement-stage.md)

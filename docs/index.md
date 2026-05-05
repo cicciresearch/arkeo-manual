@@ -1,4 +1,5 @@
 # ARKEO Manual
+_A modular platform for advanced opto-electronic characterization_
 
 <div align="center">
   <img src="assets/img/system/Arkeo_Platform_trans.png" alt="ARKEO System" width="400">
@@ -33,9 +34,9 @@ This manual provides a complete overview of:
   Interface overview, data handling, and API access.  
   [Open Section →](software/overview.md)
 
-- :material-chart-line: **Measurement Routines**  
-  JV, MPPT, Impedance, Resistivity and more.  
-  [Open Section →](routines/index.md)
+- :material-chart-line: **Scientific Theory**  
+  Scientific explanation of measurement routines.  
+  [Open Section →](scientific/index.md)
 
 <!-- - :material-wrench: **Maintenance**  
   Calibration, troubleshooting, and firmware updates.  

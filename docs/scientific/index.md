@@ -21,13 +21,13 @@ The routines are grouped by measurement philosophy and device type.
   Maximum Power Point Tracking and stability analysis.  
   [Theory →](scientific-mppt.md)
 
-- :material-sine-wave: **IPCE**  
-  Spectral external quantum efficiency measurement.  
-  [Theory →](scientific-ipce.md)
-
 - :material-moon-waning-crescent: **Dark JV**  
   Injection, SCLC and trap analysis in dark conditions.  
   [Theory →](scientific-darkjv.md)
+
+- :material-sine-wave: **IPCE**  
+  Spectral external quantum efficiency measurement.  
+  [Theory →](scientific-ipce.md)
 
 - :material-lightbulb-on: **Photoluminescence**  
   Radiative recombination and QFLS characterization.  
@@ -37,14 +37,13 @@ The routines are grouped by measurement philosophy and device type.
 
 ---
 
-<!-- 
 ## Transient Measurements
 
 <div class="grid cards" markdown>
 
 - :material-waveform: **Impedance (EIS)**  
   Frequency-domain analysis of charge transport and recombination.  
-  [Theory →](scientific-impedance.md)
+  [Theory →](scientific-eis.md)
 
 - :material-timer-sand: **CELIV**  
   Charge extraction by linearly increasing voltage.  
@@ -57,7 +56,7 @@ The routines are grouped by measurement philosophy and device type.
 </div>
 
 ---
-
+<!-- 
 ## Transistor Measurements
 
 <div class="grid cards" markdown>

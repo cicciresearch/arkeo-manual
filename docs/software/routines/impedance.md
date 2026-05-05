@@ -1,15 +1,3 @@
-<!-- <div class="grid" markdown>
-
-![Image](https://www.palmsens.com/app/uploads/2021/04/EIS-of-a-parallel-Resistor-and-Capacitor-in-a-schematic-Bode-and-Nyquist-plot-.png)
-
-![Image](https://www.seas.ucla.edu/~pilon/images/supercapacitors/EIS-Interpretation-ExpNyquist.PNG)
-
-![Image](https://www.tek.com/-/media/sites/default/files/images/xyz-of-scope-image/tek-xyz-primer-c1-figure10-750x630.png?h=378\&w=100%25)
-
-![Image](https://www.analog.com/en/_/media/images/analog-dialogue/en/studentzone/6-2018/192209_fig_04.png?rev=6d3e8c8a50a24eaa84c89a5d2f912ac6\&sc_lang=en\&w=900)
-
-</div> -->
-
 ![EIS Interface](img/impedance.png)
 
 ## Overview
@@ -34,7 +22,7 @@ The device responds with a current signal:
 $$
 I(t) = I_{AC} \cdot \sin(2\pi f t + \phi)
 $$
-Because the device behaves as a complex impedance, the current is phase-shifted by an angle φ relative to the applied voltage.
+Because the device behaves as a complex impedance, the current is phase-shifted by an angle $\phi$ relative to the applied voltage.
 
 ---
 
