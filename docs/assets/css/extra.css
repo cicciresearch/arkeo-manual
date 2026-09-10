@@ -26,3 +26,82 @@ figcaption {
   height: auto;
   border-radius: 6px;
 }
+
+/* Cite this paragraph */
+.cite-block {
+  margin: -0.2rem 0 1rem;
+}
+
+.cite-toggle {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--md-accent-fg-color);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.72rem;
+  padding: 0;
+  opacity: 0.72;
+}
+
+.cite-toggle:hover,
+.cite-toggle:focus-visible {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.cite-panel {
+  margin-top: 0.55rem;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.35rem;
+  background: var(--md-code-bg-color);
+  font-size: 0.78rem;
+}
+
+.cite-panel-title {
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.cite-text {
+  line-height: 1.5;
+}
+
+.cite-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.65rem;
+}
+
+.cite-actions button,
+.cite-bibtex button {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.25rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  font: inherit;
+  padding: 0.28rem 0.5rem;
+}
+
+.cite-actions button:hover,
+.cite-bibtex button:hover {
+  border-color: var(--md-accent-fg-color);
+}
+
+.cite-bibtex {
+  margin-top: 0.65rem;
+}
+
+.cite-bibtex summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cite-bibtex pre {
+  margin: 0.5rem 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
