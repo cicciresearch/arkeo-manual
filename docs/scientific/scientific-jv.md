@@ -27,10 +27,12 @@ From a typical JV characteristic, four important parameters can be extracted.
 #### Open-circuit voltage ($V_{oc}$)
 
 The open-circuit voltage is a measure of the potential difference due to carrier separation. At $V_{oc}$, the applied voltage equals the built-in potential, resulting in zero current flow.
+{: #voc-definition .citeable data-cite-title="Open-circuit voltage definition" data-cite-year="2026" }
 
 #### Short-circuit current ($J_{sc}$)
 
 The short-circuit current is the maximum current that flows when the voltage across the device is zero.
+{: #jsc-definition .citeable data-cite-title="Short-circuit current definition" data-cite-year="2026" }
 
 #### Efficiency ($\eta$)
 
