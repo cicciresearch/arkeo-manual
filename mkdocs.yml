@@ -160,6 +160,7 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - js/katex-init.js
+  - js/cite.js
   - https://cdn.plot.ly/plotly-2.30.0.min.js
   - tools/eqe-analysis/eqe_tool.js
 
